@@ -5,5 +5,5 @@ namespace QMessage.Core.Entities;
 public class User : IdentityUser
 {
     public string? DisplayName { get; set; }
-    public string? ProfilePictureUrl { get; set; }
+    public string? ProfilePictureUrl { get; set; } = "/images/default-avatar.jpg";
 }
