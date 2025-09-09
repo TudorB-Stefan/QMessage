@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/stephan/Projects/QMessage/QMessage.API/QMessage.API.csproj": {}
+  },
+  "projects": {
+    "/home/stephan/Projects/QMessage/QMessage.API/QMessage.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stephan/Projects/QMessage/QMessage.API/QMessage.API.csproj",
+        "projectName": "QMessage.API",
+        "projectPath": "/home/stephan/Projects/QMessage/QMessage.API/QMessage.API.csproj",
+        "packagesPath": "/home/stephan/.nuget/packages/",
+        "outputPath": "/home/stephan/Projects/QMessage/QMessage.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stephan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj": {
+                "projectPath": "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj"
+              },
+              "/home/stephan/Projects/QMessage/QMessage.Infrastructure/QMessage.Infrastructure.csproj": {
+                "projectPath": "/home/stephan/Projects/QMessage/QMessage.Infrastructure/QMessage.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj",
+        "projectName": "QMessage.Core",
+        "projectPath": "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj",
+        "packagesPath": "/home/stephan/.nuget/packages/",
+        "outputPath": "/home/stephan/Projects/QMessage/QMessage.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stephan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/stephan/Projects/QMessage/QMessage.Infrastructure/QMessage.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stephan/Projects/QMessage/QMessage.Infrastructure/QMessage.Infrastructure.csproj",
+        "projectName": "QMessage.Infrastructure",
+        "projectPath": "/home/stephan/Projects/QMessage/QMessage.Infrastructure/QMessage.Infrastructure.csproj",
+        "packagesPath": "/home/stephan/.nuget/packages/",
+        "outputPath": "/home/stephan/Projects/QMessage/QMessage.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stephan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj": {
+                "projectPath": "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

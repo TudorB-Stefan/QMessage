@@ -1,0 +1,6 @@
+@QMessage.API_HostAddress = http://localhost:5182
+
+GET {{QMessage.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

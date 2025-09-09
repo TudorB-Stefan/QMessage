@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TdHyIDm4TNI=",
+  "success": true,
+  "projectFilePath": "/home/stephan/Projects/QMessage/QMessage.API/QMessage.API.csproj",
+  "expectedPackageFiles": [
+    "/home/stephan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/home/stephan/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/stephan/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

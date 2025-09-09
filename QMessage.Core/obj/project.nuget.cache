@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "at4PtJpCw54=",
+  "success": true,
+  "projectFilePath": "/home/stephan/Projects/QMessage/QMessage.Core/QMessage.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/stephan/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

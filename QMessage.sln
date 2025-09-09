@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QMessage.API", "QMessage.API\QMessage.API.csproj", "{B6558F16-8645-434D-A755-191894F9C840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QMessage.Core", "QMessage.Core\QMessage.Core.csproj", "{6B515D87-EE14-45FF-AD45-345DE5D8CEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QMessage.Infrastructure", "QMessage.Infrastructure\QMessage.Infrastructure.csproj", "{56A589C9-A1ED-43F5-9864-25593C21D822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6558F16-8645-434D-A755-191894F9C840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6558F16-8645-434D-A755-191894F9C840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6558F16-8645-434D-A755-191894F9C840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6558F16-8645-434D-A755-191894F9C840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B515D87-EE14-45FF-AD45-345DE5D8CEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B515D87-EE14-45FF-AD45-345DE5D8CEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B515D87-EE14-45FF-AD45-345DE5D8CEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B515D87-EE14-45FF-AD45-345DE5D8CEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A589C9-A1ED-43F5-9864-25593C21D822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A589C9-A1ED-43F5-9864-25593C21D822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A589C9-A1ED-43F5-9864-25593C21D822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A589C9-A1ED-43F5-9864-25593C21D822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
