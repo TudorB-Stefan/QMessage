@@ -6,7 +6,7 @@ namespace QMessage.API.Extensions;
 
 public static class UserExtensions
 {
-    public static UserDto ToDto(this User user, ITokenService tokenService)
+    public static async Task<UserDto> ToDto(this User user, ITokenService tokenService)
     {
         return new UserDto
         {
@@ -16,7 +16,7 @@ public static class UserExtensions
             FirstName = user.FirstName,
             LastName = user.LastName,
             ImageUrl = user.ImageUrl,
-            Token = ""
+            Token = await tokenService.GenerateToken(user)
         };
     }
 }

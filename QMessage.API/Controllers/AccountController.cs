@@ -11,8 +11,8 @@ using QMessage.Infrastructure.Data;
 namespace QMessage.API.Controllers;
 
 
-[Microsoft.AspNetCore.Components.Route("api/[controller]")]
 [ApiController]
+[Route("api/[controller]")]
 public class AccountController(UserManager<User> userManager, ITokenService tokenService) : ControllerBase 
 {
     [HttpPost("register")]
@@ -35,7 +35,7 @@ public class AccountController(UserManager<User> userManager, ITokenService toke
             }
             return ValidationProblem();
         }
-        return user.ToDto(tokenService);
+        return await user.ToDto(tokenService);
     }
 
     [HttpPost("login")]
@@ -45,6 +45,6 @@ public class AccountController(UserManager<User> userManager, ITokenService toke
         if (user == null) return Unauthorized("Invalid email or password");
         var result = await userManager.CheckPasswordAsync(user, loginDto.Password);
         if (!result) return Unauthorized("Invalid email or password");
-        return user.ToDto(tokenService);
+        return await user.ToDto(tokenService);
     }
 }
