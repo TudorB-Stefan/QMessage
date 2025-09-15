@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -15,8 +16,9 @@ namespace QMessage.API.Controllers;
 [Route("api/[controller]")]
 public class AccountController(UserManager<User> userManager, ITokenService tokenService) : ControllerBase 
 {
+    [AllowAnonymous]
     [HttpPost("register")]
-    public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
+    public async Task<ActionResult<UserDto>> Register([FromBody] RegisterDto registerDto)
     {
         var user = new User
         {
@@ -38,8 +40,9 @@ public class AccountController(UserManager<User> userManager, ITokenService toke
         return await user.ToDto(tokenService);
     }
 
+    [AllowAnonymous]
     [HttpPost("login")]
-    public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+    public async Task<ActionResult<UserDto>> Login([FromBody] LoginDto loginDto)
     {
         var user = await userManager.FindByEmailAsync(loginDto.Email);
         if (user == null) return Unauthorized("Invalid email or password");

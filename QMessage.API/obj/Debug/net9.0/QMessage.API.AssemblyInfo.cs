@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QMessage.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce29eb3ec52092b896f1c387e77092e693a5f718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b07c9408278e49ede20b66e96728af852e8c7ba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("QMessage.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QMessage.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
