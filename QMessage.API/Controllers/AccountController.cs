@@ -26,7 +26,7 @@ public class AccountController(UserManager<User> userManager, ITokenService toke
             Email = registerDto.Email,
             FirstName = registerDto.FirstName,
             LastName = registerDto.LastName,
-            ImageUrl = registerDto.ImageUrl
+            ImageUrl = ""
         };
         var result = await userManager.CreateAsync(user, registerDto.Password);
         if (!result.Succeeded)
